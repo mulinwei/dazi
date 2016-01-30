@@ -1,0 +1,198 @@
+body{
+	margin:0;
+	background: url(../img/wai.jpg);
+
+}
+.clear{
+	clear:both;
+}
+/*打字游戏---------------------------------*/
+.screen{
+	width: 1200px;
+	height: 500px;
+	/*border: 1px solid black;*/
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+	margin: 60px auto;
+	margin-top: 60px;
+	position: relative;
+	overflow: hidden;
+	background-color:white;
+	background: url(../img/ss.jpg);
+
+}
+.head{
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: red;
+	position: absolute;
+	font-size: 20px;
+	background-color: black;
+	top: 20px;
+	left: -35px;
+	border-radius: 10px;
+	box-shadow:0 0 15px black;
+	-webkit-transform:rotateZ(-45deg);
+	cursor: pointer;
+}
+#jianpan{
+	width:970px; 
+	padding-bottom: 5px;
+	padding-left: 8px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top:70px;
+	left: 140px;
+	/*border-radius: 10px;
+	box-shadow:0 0 10px black;*/
+	z-index: 2;
+	/*opacity: 0;*/
+	/*background: url(../img/jiangp.jpg);*/
+}
+.jiangp{
+	width:1000px; 
+	height: 450px;
+	position: absolute;
+	top:40px;
+	left: 130px;
+	z-index: 1;
+}
+.jian{
+	width: 100px;
+	height: 60px;
+	border: 1px solid black;
+	margin: 5px 5px 0 0;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	box-shadow: 0 0 10px gray;
+	border-radius: 13px;
+	font-size: 25px;
+	font-weight: bolder;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	z-index: 2;
+}
+.jishiqi{
+	width: 150px;
+	height: 30px;
+	background: white;
+	margin: 3px 0 0 500px;
+	box-shadow: 0 0 10px gray inset;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#miao{
+	color: red;
+	cursor: pointer;
+}
+.xuan{
+	width: 100px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 150px;
+	left: 10px;
+}
+.dan{
+	width: 80px;
+	height: 30px;
+	border: 1px solid red;
+	background: black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 30px;
+}
+.shuan{
+	width: 80px;
+	height: 30px;
+	border: 1px solid red;
+	background: black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 30px;
+}
+.paiming{
+	width: 80px;
+	height: 30px;
+	border: 1px solid red;
+	background: black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 30px;
+}
+.shuai{
+	width: 80px;
+	height: 30px;
+	border: 1px solid red;
+	background: black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 30px;
+}
+.help{
+	width: 60px;
+	height: 80px;
+	border: 1px solid gray;
+	background: white;
+	box-shadow: 5px 0 5px black inset;
+	margin-left: 30px;
+	margin-top: 20px;
+	position: relative;
+	z-index: 4;
+	line-height: 90px;
+	text-align: center;
+	font-weight: bolder;
+	color: red;
+	cursor: pointer;
+	font-size: 20px;
+}
+.heng{
+	width: 40px;
+	height: 40px;
+	border-bottom: 2px solid gray;
+	background: white;
+	box-shadow: 5px 5px 5px black inset;
+	position: absolute;
+	left: -36px;
+	top:39px;
+	z-index: 1;
+
+}
+.fugai{
+	height: 33px;
+	width: 10px;
+	/*border: 1px solid red;*/
+	background: white;
+	z-index: 10;
+	position: absolute;
+	top: 46px;
+	left: -2px;
+	
+}
